@@ -1,0 +1,5 @@
+Environment	Name	Value	Component_
+s72	l255	L255	s72
+Environment	Environment
+AgentExeName	=-*AGENT_EXE	[AGENT_EXE_PROP]	EnviromentComponent
+AgentExePath	=-*AGENT	[INSTALLFOLDER]	EnviromentComponent

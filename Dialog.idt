@@ -1,0 +1,25 @@
+Dialog	HCentering	VCentering	Width	Height	Attributes	Title	Control_First	Control_Default	Control_Cancel
+s72	i2	i2	i2	i2	I4	L128	s50	S50	S50
+1251	Dialog	Dialog
+AgentConfigDlg	50	50	370	270	7	Установка [ProductName]	BannerBitmap	Back	Cancel
+AgentMaintenanceTypeDlg	50	50	370	270	7	Установка [ProductName]	ChangeButton	ChangeButton	Cancel
+BrowseDlg	50	50	370	270	7	Установка [ProductName]	PathEdit	OK	Cancel
+CancelDlg	50	50	260	85	7	Установка [ProductName]	No	No	No
+DiskCostDlg	50	50	370	270	7	Установка [ProductName]	OK	OK	OK
+ErrorDlg	50	50	270	105	65543	Установка [ProductName]	ErrorText		
+ExitDialog	50	50	370	270	7	Установка [ProductName]	Finish	Finish	Finish
+FatalError	50	50	370	270	7	Установка [ProductName]	Finish	Finish	Finish
+FilesInUse	50	50	370	270	23	Установка [ProductName]	Retry	Retry	Retry
+InstallDirDlg	50	50	370	270	7	Установка [ProductName]	Next	Next	Cancel
+LicenseAgreementDlg	50	50	370	270	7	Установка [ProductName]	BannerBitmap	Next	Cancel
+MaintenanceWelcomeDlg	50	50	370	270	7	Установка [ProductName]	Next	Next	Cancel
+MsiRMFilesInUse	50	50	370	270	23	Установка [ProductName]	OK	OK	Cancel
+OutOfDiskDlg	50	50	370	270	7	Установка [ProductName]	OK	OK	OK
+OutOfRbDiskDlg	50	50	370	270	7	Установка [ProductName]	No	No	No
+PrepareDlg	50	50	370	270	5	Установка [ProductName]	Cancel	Cancel	Cancel
+ProgressDlg	50	50	370	270	5	Установка [ProductName]	Cancel	Cancel	Cancel
+ResumeDlg	50	50	370	270	7	Установка [ProductName]	Install	InstallNoShield	Cancel
+UserExit	50	50	370	270	7	Установка [ProductName]	Finish	Finish	Finish
+VerifyReadyDlg	50	50	370	270	39	Установка [ProductName]	Install	Repair	Cancel
+WaitForCostingDlg	50	50	260	85	7	Установка [ProductName]	Return	Return	Return
+WelcomeDlg	50	50	370	270	7	Установка [ProductName]	Next	Next	Cancel

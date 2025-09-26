@@ -1,0 +1,4 @@
+ServiceName	Component_	NewService	FirstFailureActionType	SecondFailureActionType	ThirdFailureActionType	ResetPeriodInDays	RestartServiceDelayInSeconds	ProgramCommandLine	RebootMessage
+s72	s72	i1	s32	s32	s32	I4	I4	S255	S255
+Wix4ServiceConfig	ServiceName
+AgentService	ServiceComponent	1	restart	restart	restart	1	1		

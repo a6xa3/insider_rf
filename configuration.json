@@ -1,0 +1,21 @@
+{
+  "mode": "global",
+  "settings": {
+    "path": "$UserDataDirectory/configuration.json"
+  },
+  "server": {
+    "path": "agents/",
+    "address": "geopl.insider.cloud",
+    "port": null,
+    "secure": true,
+    "key": "pIAFy0RnHMrYgDiwX2DRkwnsYMEH4TKC"
+  },
+  "debug": {
+    "type": "console",
+    "enabled": false,
+    "file": "$UserDataDirectory/agent.log"
+  },
+  "client": {
+    "type": "http"
+  }
+}

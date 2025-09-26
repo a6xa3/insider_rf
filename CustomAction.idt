@@ -1,0 +1,14 @@
+Action	Type	Source	Target	ExtendedType
+s72	i2	S72	S255	I4
+CustomAction	Action
+ConfigAgent	3073	ConfigAgentDll	ConfigAgent	
+CopyConfigFile	3106	INSTALLFOLDER	cmd /c copy /Y "[OriginalDatabase]\..\configuration.json" "[INSTALLFOLDER]configuration.json"	
+DeleteFileAfterServices	3170	INSTALLFOLDER	cmd /c del /f /q [INSTALLFOLDER]service.log	
+OnUninstallAction	3073	OnUninstallActionDll	OnUninstallAction	
+RemoveInsiderAgentForAllUsers	3170	INSTALLFOLDER	"[INSTALLFOLDER]delete_user_stat.exe"	
+SetMANUAL_COLLECT	51	MANUAL_COLLECT	AUTOMATE	
+SetPropertiesForConfigAgent	51	ConfigAgent	INSTALLFOLDER_PARAM "[INSTALLFOLDER]\" MODE_PARAM "[MODE]" CREATE_EMPLOYEE_PARAM "[CREATE_EMPLOYEE]" LOGON_USER "[LogonUser]" MANUAL_COLLECT_PARAM "[MANUAL_COLLECT]"	
+SilentInstall	51	ARPSYSTEMCOMPONENT	1	
+Wix4ExecServiceConfig_X86	3073	Wix4UtilCA_X86	ExecServiceConfig	
+Wix4RollbackServiceConfig_X86	3329	Wix4UtilCA_X86	RollbackServiceConfig	
+Wix4SchedServiceConfig_X86	1	Wix4UtilCA_X86	SchedServiceConfig	

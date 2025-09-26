@@ -1,0 +1,6 @@
+FileKey	Component_	FileName	DirProperty	InstallMode
+s72	s72	L255	s72	i2
+RemoveFile	FileKey
+PurgeConfigInAppFolder	Files	aq8j-irh.jso|configuration.json	INSTALLFOLDER	2
+PurgeInsiderAgentFolder	Files		INSTALLFOLDER	2
+PurgeServiceInAppFolder	Files	jcxbn20s|*	INSTALLFOLDER	2

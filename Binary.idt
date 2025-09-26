@@ -1,0 +1,12 @@
+Name	Data
+s72	v0
+Binary	Name
+ConfigAgentDll	ConfigAgentDll.ibd
+OnUninstallActionDll	OnUninstallActionDll.ibd
+Wix4UtilCA_X86	Wix4UtilCA_X86.ibd
+WixUI_Bmp_Banner	WixUI_Bmp_Banner.ibd
+WixUI_Bmp_Dialog	WixUI_Bmp_Dialog.ibd
+WixUI_Bmp_New	WixUI_Bmp_New.ibd
+WixUI_Bmp_Up	WixUI_Bmp_Up.ibd
+WixUI_Ico_Exclam	WixUI_Ico_Exclam.ibd
+WixUI_Ico_Info	WixUI_Ico_Info.ibd

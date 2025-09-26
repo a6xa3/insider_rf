@@ -1,0 +1,11 @@
+Property	Order	Value	X	Y	Width	Height	Text	Help
+s72	i2	s64	i2	i2	i2	i2	L0	L50
+1251	RadioButton	Property	Order
+CREATE_EMPLOYEE	1	YES	0	0	160	25	Да	
+CREATE_EMPLOYEE	2	NO	0	20	160	25	Нет	
+MODE	1	GLOBAL	0	0	160	25	Для всех пользователей	
+MODE	2	USER	0	20	160	25	Для текущего пользователя	
+OPEN_OR_SILENT_INSTALL	1	OPEN	0	0	160	25	Открытая	
+OPEN_OR_SILENT_INSTALL	2	SILENT	0	20	160	25	Скрытая	
+WixUIRMOption	1	UseRM	0	0	295	16	&Закрыть приложения и попытаться перезапустить их.	
+WixUIRMOption	2	DontUseRM	0	20	295	16	&Не закрывать приложения. Потребуется перезагрузка.	

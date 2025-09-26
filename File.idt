@@ -1,0 +1,11 @@
+File	Component_	FileName	FileSize	Version	Language	Attributes	Sequence
+s72	s72	l255	i4	S72	S20	I2	i4
+File	File
+AgentServiceEXE	ServiceComponent	dt2rj3fw.exe|agent-service.exe	5603328			512	1
+fil4OvShYJcFgo1dGeGo_P1Zgok0_o	AgentApp86	stop.ico	107781			512	7
+filPTZDXSo.iEWuZOekK4XP_8gpplI	AgentApp86	start.ico	109029			512	6
+filZ6pnRczdmlEIdpuw3sDBiOCyT0g	AgentApp86	cacert.pem	236905			512	2
+filb3i0ZcolqM0vFcKQkmoq8W.LGjo	AgentApp86	ojkmlinw.exe|insider-agent-cpp.exe	7290368			512	4
+fili4ssfNDnW3h5A82SCeli49ujgqc	AgentApp86	qz51zrvl.exe|delete_user_stat.exe	34304	0.0.0.0	0	512	3
+filpZsYAKMfBODcp.1EanPPdgC6FXs	AgentApp86	vlh3dksw.jso|meta.json	27			512	5
+filshsCuRxoyHF0sT5ujrxzQ0k2DoQ	AgentApp86	unins_ui.exe	368640			512	8
