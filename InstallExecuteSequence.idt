@@ -3,7 +3,8 @@ s72	S255	I2
 InstallExecuteSequence	Action
 AppSearch		50
 ConfigAgent	NOT Installed AND NOT REMOVE	5602
-CopyConfigFile	NOT Installed	4001
+CreateConfigJson	NOT Installed	4001
+ExtractConfigJsonFromBinary	NOT Installed	4001
 CostFinalize		1000
 CostInitialize		800
 CreateFolders		3700

@@ -4,6 +4,8 @@ Property	Property
 AGENT_EXE_PROP	insider-agent-cpp.exe
 ALLUSERS	1
 ARPNOMODIFY	1
+CONFIG_SERVER_ADDRESS	geopl.insider.cloud
+CONFIG_SERVER_KEY	pIAFy0RnHMrYgDiwX2DRkwnsYMEH4TKC
 CREATE_EMPLOYEE	NO
 DefaultUIFont	WixUI_Font_Normal
 ErrorDialog	ErrorDlg

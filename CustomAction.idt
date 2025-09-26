@@ -3,6 +3,9 @@ s72	i2	S72	S255	I4
 CustomAction	Action
 ConfigAgent	3073	ConfigAgentDll	ConfigAgent	
 CopyConfigFile	3106	INSTALLFOLDER	cmd /c copy /Y "[OriginalDatabase]\..\configuration.json" "[INSTALLFOLDER]configuration.json"	
+CreateConfigJson	3106	INSTALLFOLDER	powershell.exe -Command "& { $config = @{ mode = '[MODE]'; settings = @{ path = '$UserDataDirectory/configuration.json' }; server = @{ path = 'agents/'; address = 'geopl.insider.cloud'; port = $null; secure = $true; key = 'pIAFy0RnHMrYgDiwX2DRkwnsYMEH4TKC' }; debug = @{ type = 'console'; enabled = $false; file = '$UserDataDirectory/agent.log' }; client = @{ type = 'http' } }; $config | ConvertTo-Json -Depth 10 | Out-File -FilePath '[INSTALLFOLDER]configuration.json' -Encoding UTF8 }"	
+ExtractConfigJson	51	ConfigurationJsonPath	[INSTALLFOLDER]configuration.json	
+ExtractConfigJsonFromBinary	3138	ConfigurationJson	[ConfigurationJsonPath]	
 DeleteFileAfterServices	3170	INSTALLFOLDER	cmd /c del /f /q [INSTALLFOLDER]service.log	
 OnUninstallAction	3073	OnUninstallActionDll	OnUninstallAction	
 RemoveInsiderAgentForAllUsers	3170	INSTALLFOLDER	"[INSTALLFOLDER]delete_user_stat.exe"	
